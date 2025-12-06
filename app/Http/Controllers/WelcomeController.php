@@ -10,4 +10,8 @@ class WelcomeController extends Controller
     {
         return 'Welcome to the API info Controller';
     }
+    public function show(Request $request)
+    {
+        return 'Welcome to the API info Controller';
+    }
 }
